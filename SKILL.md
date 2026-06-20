@@ -7,6 +7,9 @@ description: Skill for interacting with the Workadu API to fetch data and execut
 
 This skill provides the instructions and tooling necessary for an AI agent (like Claude, ChatGPT, Gemini, or this IDE) to securely interact with the Workadu platform via its API.
 
+## Slash Command Trigger
+When the user types `/workadu` in the chat, you **MUST** automatically utilize this skill to understand and interact with the Workadu API on their behalf.
+
 ## Requirements
 
 To interact with the Workadu API, you must have the following environment variables configured:
